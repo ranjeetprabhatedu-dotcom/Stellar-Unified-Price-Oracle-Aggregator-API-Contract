@@ -3,10 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node src/indexer.js",
+    "start": "node init && node src/indexer.js",
     "test": "node --test test/*.test.js"
   },
   "dependencies": {
-    "@stellar/stellar-sdk": "13.3.0"
+    "@stellar/stellar-sdk": "17.4.0"
   }
 }
